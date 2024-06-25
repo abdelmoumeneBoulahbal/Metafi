@@ -1,0 +1,76 @@
+nav{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+
+    align-items:center !important;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: grey;
+
+    text-align: center;
+
+}
+
+li{
+
+    padding: 20px;
+
+}
+
+nav h1{
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+
+.btn-div button{
+    padding: 15px;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+
+}
+.btn-div{
+    margin-right: 30px;
+
+}
+
+.login-btn{
+    background: rgb(255, 255, 255);
+    border: 2px solid rgba(83, 83, 83, 0.26);
+
+    width: 80px;
+    margin-right: 13px;
+    border-radius: 10px;
+
+    transition: all .5s ease;
+
+}
+
+.gs-btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+
+    transition: all .5s ease;
+}
+
+
+.gs-btn:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+}
+.login-btn:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}

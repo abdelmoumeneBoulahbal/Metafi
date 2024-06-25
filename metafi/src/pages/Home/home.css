@@ -1,0 +1,60 @@
+.home-section{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    margin-top: 50px;
+}
+.text-div{
+    text-align: center;
+}
+.btn-hero-div{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+h3{
+    color: rgb(40, 84, 228);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p1{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 20px;
+
+}
+.p2{
+    font-size: 1.1rem;
+    font-weight: 500;
+
+    color: grey;
+    margin-top: 0px;
+
+    margin-bottom: 40px;
+}
+
+.btn-hero-div button{
+    width: 140px;
+    margin-top: 0px !important;
+    margin: 10px;
+
+    padding: 18px;
+
+    border-radius: 10px;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cu-btn{
+    border: 2px solid grey;
+    background-color: white;
+
+}
+.gs-btn{
+    border: 2px solid black;
+
+}
