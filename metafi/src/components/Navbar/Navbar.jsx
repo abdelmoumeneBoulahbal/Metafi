@@ -11,7 +11,7 @@ export default function Navbar() {
                 <h1>Metafi</h1>
             </div>
             <div className='list-div'>
-                <ul>
+                <ul className='nav-list'>
                     <li>Features</li>
                     <li>Solutions</li>
                     <li>Customers</li>

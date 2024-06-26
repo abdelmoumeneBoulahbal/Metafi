@@ -19,7 +19,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="btn-hero-div">
-                    <button className='gs-btn'>Get Started</button>
+                    <button className='gs2-btn'>Get Started</button>
                     <button className='cu-btn'>Contact Us</button>
                 </div>
             </div>

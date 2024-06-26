@@ -7,7 +7,7 @@ nav{
     align-items:center !important;
 }
 
-ul{
+.nav-list{
     list-style: none;
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ ul{
 
 }
 
-li{
+.nav-list li{
 
     padding: 20px;
 
@@ -68,7 +68,7 @@ nav h1{
 
 .gs-btn:hover{
     cursor: pointer;
-    box-shadow: 0px 0px 20px black;
+    box-shadow: 0px 0px 15px black;
 }
 .login-btn:hover{
     cursor: pointer;

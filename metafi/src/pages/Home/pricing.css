@@ -1,0 +1,142 @@
+.pricing-section{
+    margin-top: 100px;
+}
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    align-items: center;
+    
+}
+
+.button{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: grey;
+    width: 50px;
+    height: 25px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+}
+.button::before{
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 200px;
+    margin: 3px;
+    transition: .5s;
+}
+input:checked + .button{
+    background-color: #5F58FE;
+}
+
+
+input:checked + .button::before{
+
+    transform: translateX(23px);
+
+    
+}
+
+input{
+    display: none;
+}
+
+
+.text {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .bold {
+    font-weight: bold;
+    opacity: 1;
+    transform: scale(1.2); /* Slightly increase size for effect */
+  }
+  
+  .text:not(.bold) {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+
+  .save-text{
+    text-align: center;
+    color: rgb(10, 211, 127);
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.pricing-card-div{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card1, .card2{
+    color: white;
+    background: grey;
+    padding: 25px;
+
+    font-size: 12px;
+
+    width: 380px;
+    height: 200px;
+
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.pricing-card-title{
+    display: flex;
+}
+.pricing-card-title h3{
+    margin-right: 10px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.pricing-card-title p{
+    margin-bottom: 0px;
+    
+    font-weight: bold;
+    text-align: center;
+    
+    color: black;
+    background-color: white;
+    
+    padding: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+    width: 60px;
+    
+    margin-bottom: 0px;
+    
+    border-radius: 7px;
+}
+.pricing-card-text{
+    font-size: 12px;
+}
+.price{
+    margin-top: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+}
+.last-text{
+    margin-top: 7px;
+}
+
+.pricing-card-right ul{
+
+    list-style-type:none;
+}
+.pricing-card-right img{
+    width: 12px;
+}
