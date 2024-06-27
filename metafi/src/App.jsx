@@ -20,17 +20,17 @@ export default function App() {
 
   const cards = [
     {
-      link: '../assets/images/mailchimp.jpg',
+      link: 'https://i.postimg.cc/QxVXRTL8/mailchimp.jpg',
       title: 'Mailchimp',
       descrip: 'Take control of your email design by using your own custom-coded HTML templates'
     },
     {
-      link: '../assets/images/zappier.png',
+      link: 'https://i.postimg.cc/bv08Q0nT/zappier.png',
       title: 'Zapier',
       descrip: 'Connect Apps and Automate Workflows with Zapier ~~ No Coding Required'
     },
     {
-      link: '../assets/images/stripe.png',
+      link: 'https://i.postimg.cc/8CgNJX7c/stripe.png',
       title: 'Stripe',
       descrip: 'Work faster and smarter bt integrating directly with Stripe, right in the app'
     }

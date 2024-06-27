@@ -7,7 +7,7 @@ export default function Navbar() {
 
         <nav>
             <div className='logo-div'>
-                <img src="../../../assets/icons/inspiration.png" alt="logo"></img>
+                <img src="https://i.ibb.co/f4ZxzFr/inspiration.png" alt="inspiration" border="0"></img>
                 <h1>Metafi</h1>
             </div>
             <div className='list-div'>

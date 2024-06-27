@@ -10,19 +10,19 @@ export default function Footer() {
             <div className='pics'>
 
                 <div>
-                    <img src="../../../assets/logos/adobe.png"></img>
+                    <img src="https://i.postimg.cc/SsDhPyDY/adobe.png"></img>
                     <p className="logo-name" id='adobe'>Adobe</p>
                 </div>
                 <div>
-                    <img src="../../../assets/logos/evernote.png"></img>
+                    <img src="https://i.postimg.cc/6pnNXVMX/evernote.png"></img>
                     <p className="logo-name" id="evernote">Evernote</p>
                 </div>
                 <div>
-                    <img src="../../../assets/logos/spotify.png"></img>
+                    <img src="https://i.postimg.cc/dtZb2mPy/spotify.png"></img>
                     <p className="logo-name" id='spotify'>Spotify</p>
                 </div>
                 <div>
-                    <img src="../../../assets/logos/asana.png"></img>
+                    <img src="https://i.postimg.cc/y8qwvgsr/asana.png"></img>
                     <p className="logo-name" id='asana'>asana</p>
                 </div>
             </div>

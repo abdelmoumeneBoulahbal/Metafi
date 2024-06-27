@@ -47,11 +47,11 @@ export default function Pricing() {
 
                     <div className='pricing-card-right'>
                         <ul>
-                            <li> <img src='../../../assets/icons/tick.png'></img>All features from the <span className='left-side-p'>Personal package</span></li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>File upload limit of up to <span className='left-side-p'>100MB per file</span></li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>Unlimited users</li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>Pause & Cancel anytime</li>
+                            <li> <img src='https://i.postimg.cc/pLTncTCz/tick.png'></img>All features from the <span className='left-side-p'>Personal package</span></li>
+                            <li> <img src='https://i.postimg.cc/pLTncTCz/tick.png'></img>File upload limit of up to <span className='left-side-p'>100MB per file</span></li>
+                            <li> <img src='https://i.postimg.cc/pLTncTCz/tick.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
+                            <li> <img src='https://i.postimg.cc/pLTncTCz/tick.png'></img>Unlimited users</li>
+                            <li> <img src='https://i.postimg.cc/pLTncTCz/tick.png'></img>Pause & Cancel anytime</li>
                         </ul>
                     </div><br></br>
                     <div className='gs-button'>
@@ -77,11 +77,11 @@ export default function Pricing() {
 
                     <div className='pricing-card-right'>
                         <ul>
-                            <li> <img src='../../../assets/icons/tick-black.png'></img>All features from the Team <span className='left-side-p'>package</span></li>
-                            <li> <img src='../../../assets/icons/tick-black.png'></img>Deeper integration and <span className='left-side-p'>API customization</span></li>
-                            <li> <img src='../../../assets/icons/tick-black.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
-                            <li> <img src='../../../assets/icons/tick-black.png'></img>Unlimited users</li>
-                            <li> <img src='../../../assets/icons/tick-black.png'></img>Pause & Cancel anytime</li>
+                            <li> <img src='https://i.postimg.cc/KzNGy7vz/tick-black.png'></img>All features from the Team <span className='left-side-p'>package</span></li>
+                            <li> <img src='https://i.postimg.cc/KzNGy7vz/tick-black.png'></img>Deeper integration and <span className='left-side-p'>API customization</span></li>
+                            <li> <img src='https://i.postimg.cc/KzNGy7vz/tick-black.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
+                            <li> <img src='https://i.postimg.cc/KzNGy7vz/tick-black.png'></img>Unlimited users</li>
+                            <li> <img src='https://i.postimg.cc/KzNGy7vz/tick-black.png'></img>Pause & Cancel anytime</li>
                         </ul>
                     </div><br></br>
                     <div className='gs-button'>
