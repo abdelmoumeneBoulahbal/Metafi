@@ -7,16 +7,36 @@ export default function Navbar() {
 
         <nav>
             <div className='logo-div'>
-                <img src="" alt=""></img>
+                <img src="../../../assets/icons/inspiration.png" alt="logo"></img>
                 <h1>Metafi</h1>
             </div>
             <div className='list-div'>
                 <ul className='nav-list'>
-                    <li>Features</li>
-                    <li>Solutions</li>
-                    <li>Customers</li>
-                    <li>Resources</li>
-                    <li>Pricing</li>
+                <a href=''>
+                        <li>
+                            Features
+                        </li>
+                    </a>
+                    <a href=''>
+                        <li>
+                            Solutions
+                        </li>
+                    </a>
+                    <a href=''>
+                        <li>
+                            Customers
+                        </li>
+                    </a>
+                    <a href=''>
+                        <li>
+                            Resources
+                        </li>
+                    </a>
+                    <a href='#pricing'>
+                        <li>
+                            Pricing
+                        </li>
+                    </a>
                 </ul>
             </div>
             <div className='btn-div'>

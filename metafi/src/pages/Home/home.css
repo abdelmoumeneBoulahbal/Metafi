@@ -1,7 +1,4 @@
 
-
-
-
 .home-section{
     display: flex;
     justify-content: center;
@@ -14,7 +11,7 @@
     margin-left: 20px;
 
 
-    background: linear-gradient(180deg, rgba(252,251,255,1) 0%, rgb(234, 237, 254) 83%, rgb(225, 231, 246) 100%);
+    background: linear-gradient(180deg, rgba(252,251,255,1) 0%, rgba(234, 237, 254, 0.539) 83%, rgba(225, 231, 246, 0.35) 100%);
 }
 .text-div{
     text-align: center;

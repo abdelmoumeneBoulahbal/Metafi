@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './pricing.css'
 import React, {useState} from 'react';
 
@@ -12,7 +13,7 @@ export default function Pricing() {
 
     return(
 
-        <section className="pricing-section">
+        <section className="pricing-section" id="pricing">
             <div className="text-div">
                 <h3>Pricing</h3>
                 <p className="p1">Simple, Flexible Pricing</p>
@@ -46,22 +47,46 @@ export default function Pricing() {
 
                     <div className='pricing-card-right'>
                         <ul>
-                            <li> <img src='../../../assets/icons/tick.png'></img>All features from the Personal package</li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>File upload limit of up to 100MB per file</li>
-                            <li> <img src='../../../assets/icons/tick.png'></img>Unlimited revision & request</li>
+                            <li> <img src='../../../assets/icons/tick.png'></img>All features from the <span className='left-side-p'>Personal package</span></li>
+                            <li> <img src='../../../assets/icons/tick.png'></img>File upload limit of up to <span className='left-side-p'>100MB per file</span></li>
+                            <li> <img src='../../../assets/icons/tick.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
                             <li> <img src='../../../assets/icons/tick.png'></img>Unlimited users</li>
                             <li> <img src='../../../assets/icons/tick.png'></img>Pause & Cancel anytime</li>
                         </ul>
                     </div><br></br>
-                    <button className='gs-button'>Get Started</button>
+                    <div className='gs-button'>
+                        <button>Get Started</button>
+                    </div>
                 </div>
 
 
 
                 <div className="card2">
-                    <div></div>
-                    <div></div>
-                    <button className='cs-button'>Contact Sales</button>
+                <div className='pricing-card-left'>
+                        <div className='pricing-card-title'>
+                            <h3>Custom</h3>
+                        </div>
+                        <div className='pricing-card-text'>
+                            <p>Access a complete payments<br></br>
+                                platform with simple.
+                            </p>
+                            <p className='price'>Let&apos;s Talk</p>
+                            <p className='last-text'>Contact us for details</p>
+                        </div>
+                    </div>
+
+                    <div className='pricing-card-right'>
+                        <ul>
+                            <li> <img src='../../../assets/icons/tick-black.png'></img>All features from the Team <span className='left-side-p'>package</span></li>
+                            <li> <img src='../../../assets/icons/tick-black.png'></img>Deeper integration and <span className='left-side-p'>API customization</span></li>
+                            <li> <img src='../../../assets/icons/tick-black.png'></img>Unlimited revision & <span className='left-side-p'>request</span></li>
+                            <li> <img src='../../../assets/icons/tick-black.png'></img>Unlimited users</li>
+                            <li> <img src='../../../assets/icons/tick-black.png'></img>Pause & Cancel anytime</li>
+                        </ul>
+                    </div><br></br>
+                    <div className='gs-button'>
+                        <button>Contact Sales</button>
+                    </div>
                 </div>
             </div>
         </section>

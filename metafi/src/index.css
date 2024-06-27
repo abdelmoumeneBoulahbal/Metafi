@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
+*{
+    scroll-behavior: smooth;
+    padding: 0px;
+    margin: 0px;
+}
 body{
+    font-family: "Poppins", "sans serif";
+    background: linear-gradient(180deg, rgba(252,251,255,1) 0%, #ecf1ffb3 100%);
+}
 
-    background: linear-gradient(180deg, rgba(252,251,255,1) 0%, rgba(250,249,255,1) 49%, rgba(248,247,251,1) 61%, rgba(246,247,250,1) 73%, rgba(245,246,251,1) 83%, rgba(244,245,248,1) 100%);
+a{
+    text-decoration: none !important;
+    color: rgba(128, 128, 128, 0.716);
 
+}
+a:hover{
+    color: grey;
 }

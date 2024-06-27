@@ -12,6 +12,7 @@ import Pricing from "./pages/Home/Pricing";
 
 /* css */
 import './index.css'
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -52,6 +53,7 @@ export default function App() {
         ))}
       </div>
       <Pricing />
+      <Footer />
     </>
   
   );
