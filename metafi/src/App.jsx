@@ -1,19 +1,14 @@
 
-
-
-
-
 /* Components */
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Card from "./components/Card/Card";
 import Pricing from "./pages/Home/Pricing";
+import Footer from "./components/Footer/Footer";
 
 
 /* css */
 import './index.css'
-import Footer from "./components/Footer/Footer";
-
 
 
 export default function App() {
@@ -37,25 +32,27 @@ export default function App() {
   ]
 
 
-  return(
-    <>
-      <Navbar/>
-      <Home/>
-      <div className="card-container">
-        {cards.map((card, index) => (
-          <Card 
-              key={index}
-              link={card.link}
-              title={card.title}
-              descrip={card.descrip}
 
-          />
-        ))}
-      </div>
-      <Pricing />
-      <Footer />
-    </>
-  
+  return(
+
+      <main>
+        <Navbar/>
+        <Home/>
+        <div className="card-container">
+          {cards.map((card, index) => (
+            <Card 
+                key={index}
+                link={card.link}
+                title={card.title}
+                descrip={card.descrip}
+
+            />
+          ))}
+        </div>
+        <Pricing />
+        <Footer />
+      </main>  
+
   );
 
 
