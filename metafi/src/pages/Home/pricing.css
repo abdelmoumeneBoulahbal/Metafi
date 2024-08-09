@@ -227,3 +227,44 @@ input{
 .card1 button:hover {
     box-shadow: 0px 0px 10px white;    
 }
+
+
+/* Small Devices */
+@media (max-width: 576px) {
+
+    .button-div, .save-text{
+        display: none;
+    }
+    .pricing-card-div{
+        flex-direction: column;
+    }
+    .card1, .card2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 280px;
+        height: 500px;
+        
+    }
+    .pricing-card-right{
+        margin-left: 7px;
+        
+    }
+
+    .gs-button button{
+        width: 250px;
+        margin: 0px;
+    }
+
+    .text-div-title{
+        margin-left: -10px;
+    }
+    .text-div .p2{
+        margin-top: 10px;
+
+    }
+}
+/* Small Devices End */

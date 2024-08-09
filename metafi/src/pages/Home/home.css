@@ -81,3 +81,35 @@ h3{
     cursor: pointer;
     border: 2px solid black;
 }
+
+/* Small Devices */
+@media (max-width: 576px) {
+    .text-div{
+        padding-right: 40px;
+        padding-left: 40px;
+
+    }
+    .text-div .p1{
+        font-size: 2.4rem;
+    }
+    .text-div .p2{
+        font-size: 12px;
+        margin-top: -20px;
+    }
+    .btn-hero-div{
+        width: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+    .btn-hero-div button {
+        font-size: 12px;
+        width: 120px;
+        padding: 15px;
+    }
+    .gs2-btn{
+        margin-bottom: 20px !important;
+    }
+}
+/* Small Devices End */

@@ -21,7 +21,7 @@ export default function App() {
     },
     {
       link: 'https://i.postimg.cc/bv08Q0nT/zappier.png',
-      title: 'Zapier',
+      title: 'Zappier',
       descrip: 'Connect Apps and Automate Workflows with Zapier ~~ No Coding Required'
     },
     {

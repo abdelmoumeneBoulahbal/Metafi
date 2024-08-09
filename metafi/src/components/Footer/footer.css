@@ -65,3 +65,27 @@ footer img{
     justify-content: center;
     align-items: center;
 }
+
+/* Small Devices */
+@media (max-width: 576px) {
+  footer{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .pics{
+    margin-left: 40px;
+  }
+  .pics div{
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    margin-right: 30px;
+  }
+  .logo-name{
+    font-size: 14px;
+    margin-left: 0px !important;
+  }
+}
+/* Small Devices End */

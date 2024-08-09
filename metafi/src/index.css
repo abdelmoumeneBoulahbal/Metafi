@@ -19,3 +19,17 @@ a{
 a:hover{
     color: grey;
 }
+
+
+/* Small Devices */
+@media (max-width: 576px) {
+
+    .card-container{
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+        padding: 0px;
+    }
+
+}
+/* Small Devices End */

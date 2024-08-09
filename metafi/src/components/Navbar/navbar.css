@@ -88,3 +88,35 @@ nav h1{
     cursor: pointer;
     border: 2px solid black;
 }
+
+/* Small Devices */
+@media (max-width: 576px) {
+    nav {
+        font-size: 12px;
+        margin-bottom: 150px;
+        justify-content:space-between;
+    }
+    .logo-div img{
+        margin-left: -40px;
+    }
+    .logo-div{
+        margin-right: 10px;
+    }
+    .list-div{
+        display: none;
+    }
+    .btn-div button{
+        font-size: 12px;
+    }
+    .btn-div{
+        margin-right: 7px;
+    }
+    .login-btn{
+        display: none;
+    }
+    .gs-btn{
+        width: 100px;
+       
+    }
+}
+/* Small Devices End */

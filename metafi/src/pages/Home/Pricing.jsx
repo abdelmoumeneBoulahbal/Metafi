@@ -15,7 +15,7 @@ export default function Pricing() {
 
         <section className="pricing-section" id="pricing">
             <div className="text-div">
-                <h3>Pricing</h3>
+                <h3 className='text-div-title'>Pricing</h3>
                 <p className="p1">Simple, Flexible Pricing</p>
                 <p className="p2">Pricing plans for business at avery stage of growth.</p>
             </div>
