@@ -120,3 +120,31 @@ nav h1{
     }
 }
 /* Small Devices End */
+
+/* Medium Devices */
+@media (min-width: 577px) and (max-width:767px) {
+    nav {
+        font-size: 16px !important;
+        margin-bottom: 130px;
+        justify-content:space-between;
+    }
+    .logo-div img{
+        margin-left: -40px;
+    }
+    .logo-div{
+        margin-right: 10px;
+    }
+    .list-div{
+        display: none;
+    }
+    .btn-div button{
+        font-size: 12px;
+    }
+    .btn-div{
+        margin-right: 7px;
+    }
+    .login-btn, .gs-btn{
+        font-size: 16px !important;
+    }
+}
+/* End Medium Devices */

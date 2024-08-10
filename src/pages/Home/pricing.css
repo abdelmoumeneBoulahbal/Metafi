@@ -268,3 +268,22 @@ input{
     }
 }
 /* Small Devices End */
+
+/* Medium Devices */
+@media (min-width: 577px) and (max-width: 767px) {
+  
+    .button-div, .save-text{
+        display: none;
+    }
+    .pricing-card-div{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .card1{
+        margin-left: 0px;
+    }
+    .pricing-section .p2{
+        margin-top: 10px;
+    }
+}
+/* End Medium Devices */

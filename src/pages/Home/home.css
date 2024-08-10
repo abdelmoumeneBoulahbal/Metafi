@@ -113,3 +113,29 @@ h3{
     }
 }
 /* Small Devices End */
+
+/* Medium Devices */
+@media (min-width: 577px) and (max-width:767px) {
+    .text-div{
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .text-div .p1{
+        font-size: 3.2rem;
+    }
+    .text-div .p2{
+        font-size: 16px;
+        margin-top: -20px;
+    }
+    .btn-hero-div{
+        width: max-content;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .btn-hero-div button {
+        font-size: 16px;
+    }
+}
+/* End Medium Devices */

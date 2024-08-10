@@ -67,7 +67,7 @@ footer img{
 }
 
 /* Small Devices */
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   footer{
     font-size: 14px;
     display: flex;
@@ -75,7 +75,7 @@ footer img{
     width: 100%;
   }
   .pics{
-    margin-left: 40px;
+    margin: 0px;
   }
   .pics div{
     flex-direction: column;
@@ -87,5 +87,15 @@ footer img{
     font-size: 14px;
     margin-left: 0px !important;
   }
+  .pics > div:last-child {
+    margin-right: 10px; /* Removes the right margin */
+  }
+  .pics > div:first-child{margin-left: 15px;}
 }
 /* Small Devices End */
+
+/* Medium Devices */
+@media (min-width: 577px) and (max-width: 767px) {
+  
+}
+/* End Medium Devices */

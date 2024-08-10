@@ -33,3 +33,14 @@ a:hover{
 
 }
 /* Small Devices End */
+
+/* Medium Devices */
+@media (min-width: 577px) and (max-width: 767px) {
+    .card-container{
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        padding: 0px;
+    }
+}
+/* End Medium Devices */
