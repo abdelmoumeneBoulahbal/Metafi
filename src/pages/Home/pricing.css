@@ -287,3 +287,62 @@ input{
     }
 }
 /* End Medium Devices */
+
+/* Large devices  */
+@media (min-width: 768px) and (max-width: 992px) {
+    .button-div, .save-text{
+        display: none;
+    }
+    .pricing-card-div{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .card1{
+        margin-left: 0px;
+    }
+    .card1, .card2{
+        width: 550px;
+        height: 310px;
+    }
+    .pricing-section .p2{
+        margin-top: 10px;
+    }
+    .pricing-card-title h3{
+        font-size: 19px !important;
+    }
+    .pricing-card-text{
+        font-size: 18px;
+    }
+    .pricing-card-right{
+        margin-left: 10px;
+        font-size: 13px;
+    }
+    .gs-button button{
+        width: 550px;
+        font-size: 17px;
+    }
+}
+/* End Large devices  */
+
+@media (min-width: 993px) and (max-width: 1107px) {
+    .card1{
+        margin-left: 0px;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1040px) {
+    .card1{
+        margin-left: 0px;
+    }
+    
+    .card1, .card2{
+        width: 420px;
+    }
+    .pricing-card-right{
+        margin-left: -10px;
+    }
+    .gs-button button{
+        width: 420px;
+    }
+    
+}

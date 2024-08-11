@@ -99,3 +99,10 @@ footer img{
   
 }
 /* End Medium Devices */
+
+/* Large devices  */
+@media (min-width: 768px) and (max-width: 992px) {
+
+}
+/* End Large devices  */
+
